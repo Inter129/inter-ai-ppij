@@ -20,7 +20,7 @@ export default function App() {
             var config = {
               method: "get",
               maxBodyLength: Infinity,
-              url: "https://inter-ai-ppij.vercel.app/api/req?pp=ㅎㅇ",
+              url: "/api/req?pp=ㅎㅇ",
               headers: {},
             };
             axios(config)
